@@ -1,31 +1,34 @@
-
 # House Price Prediction Model
-This repository contains a simple House Price Prediction model implemented using Python. The project follows a structured process, including data cleaning, model development using Ridge regression, and the creation of a web-based user interface using Flask.
 
-Key Components
-## Data Cleaning: The model utilizes a dataset from Kaggle (Seattle House Price Prediction). The dataset undergoes cleaning to handle missing values, categorical data, and other preprocessing steps.
+This repository contains a house price prediction model built using various technologies including Flask, HTML, CSS, and linear regression. The model uses data preprocessing, cleaning, scaling, and linear regression techniques to predict house prices based on various features.
 
-## Model Development: The machine learning model is implemented using Ridge regression, leveraging the scikit-learn library. The trained model is saved for later use.
+## Table of Contents
 
-## Flask Web Application: The project incorporates a Flask web application, providing a user-friendly interface for predicting house prices. Users can input details such as the number of bedrooms, bathrooms, house size, and zip code to receive a price prediction.
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Preprocessing](#data-preprocessing)
+- [Model](#model)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Usage
-Clone the repository:
+## Introduction
 
-git clone https://github.com/yourusername/HousePrice_Prediction.git
-cd HousePrice_Prediction
+This project aims to predict house prices based on a dataset of house features. The model is built using linear regression and is served through a Flask web application with a user-friendly interface created using HTML and CSS.
 
-Install dependencies:
+## Technologies Used
 
-pip install -r requirements.txt
+```markdown
+- **Flask**: For creating the web application.
+- **HTML/CSS**: For designing the front-end.
+- **Python**: For data processing and model building.
+- **Pandas**: For data manipulation and analysis.
+- **Scikit-learn**: For implementing the linear regression model.
 
-Run the Flask application:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/house-price-prediction.git
 
-
-python main.py
-
-Open your web browser and visit http://127.0.0.1:5000/ to interact with the House Price Prediction interface.
-
-Datasets Used
-Seattle House Price Prediction Dataset [Kaggle]
-Feel free to explore and adapt the project for your own use. If you have any questions or suggestions, please create an issue or reach out to yourusername. Happy coding!
